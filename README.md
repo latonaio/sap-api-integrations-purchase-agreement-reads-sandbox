@@ -46,12 +46,12 @@ Latona および AION の SAP 関連リソースでは、Inputs フォルダ下�
 * sample.jsonの記載例(1)  
 
 accepter において 下記の例のように、データの種別（＝APIの種別）を指定します。  
-ここでは、"Header", "Item" が指定されています。
+ここでは、"Header" が指定されています。
 
 ```
 "api_schema": "sap.s4.beh.schedulingagreement.v1.SchedulingAgreement.Created.v1",
 "accepter": ["Header"],
-"scheduling_agreement": "1",
+"purchase_scheduling_agreement": "5500000000",
 "deleted": false
 ```
   
@@ -62,7 +62,7 @@ accepter において 下記の例のように、データの種別（＝APIの�
 ```
 "api_schema": "sap.s4.beh.schedulingagreement.v1.SchedulingAgreement.Created.v1",
 "accepter": ["All"],
-"scheduling_agreement": "1",
+"purchase_scheduling_agreement": "5500000000",
 "deleted": false
 ```
 
