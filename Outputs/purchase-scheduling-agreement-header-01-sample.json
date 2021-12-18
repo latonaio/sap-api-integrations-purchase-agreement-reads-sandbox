@@ -1,0 +1,37 @@
+{
+	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-purchase-scheduling-agreement-reads/SAP_API_Caller/caller.go#L58",
+	"function": "sap-api-integrations-purchase-scheduling-agreement-reads/SAP_API_Caller.(*SAPAPICaller).Header",
+	"level": "INFO",
+	"message": [
+		{
+			"SchedulingAgreement": "5500000000",
+			"CompanyCode": "1710",
+			"PurchasingDocumentCategory": "L",
+			"PurchasingDocumentType": "LP",
+			"CreationDate": "/Date(1511222400000)/",
+			"Language": "EN",
+			"PurchasingOrganization": "1710",
+			"PurchasingGroup": "001",
+			"DocumentCurrency": "USD",
+			"IncotermsClassification": "",
+			"PaymentTerms": "0003",
+			"NetPaymentDays": "30",
+			"TargetAmount": "0.00",
+			"ExchangeRate": "1.00000",
+			"PurchasingDocumentOrderDate": "/Date(1511222400000)/",
+			"Supplier": "17300001",
+			"SupplierAddressID": "",
+			"ValidityStartDate": "/Date(1511222400000)/",
+			"ValidityEndDate": "/Date(1542758400000)/",
+			"PurchasingDocumentOrigin": "",
+			"PurchasingDocumentDeletionCode": "X",
+			"SupplierRespSalesPersonName": "",
+			"SupplierPhoneNumber": "",
+			"InvoicingParty": "",
+			"SchedulingAgreementStatus": "10",
+			"to_SchAgrmtPartner": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SCHED_AGRMT_PROCESS_SRV/A_SchAgrmtHeader('5500000000')/to_SchAgrmtPartner",
+			"to_SchedgAgrmtItm": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SCHED_AGRMT_PROCESS_SRV/A_SchAgrmtHeader('5500000000')/to_SchedgAgrmtItm"
+		}
+	],
+	"time": "2021-12-18T12:07:48.415617+09:00"
+}

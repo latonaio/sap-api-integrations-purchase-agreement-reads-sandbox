@@ -1,0 +1,21 @@
+{
+	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-purchase-scheduling-agreement-reads/SAP_API_Caller/caller.go#L79",
+	"function": "sap-api-integrations-purchase-scheduling-agreement-reads/SAP_API_Caller.(*SAPAPICaller).Header",
+	"level": "INFO",
+	"message": [
+		{
+			"SchedulingAgreement": "5500000000",
+			"SchedulingAgreementItem": "10",
+			"ScheduleLine": "1",
+			"DelivDateCategory": "1",
+			"ScheduleLineDeliveryDate": "/Date(1511222400000)/",
+			"ScheduleLineDeliveryTime": "PT00H00M00S",
+			"OrderQuantityUnit": "PC",
+			"ScheduleLineOrderQuantity": "10",
+			"PurchaseRequisition": "",
+			"PurchaseRequisitionItem": "0",
+			"ScheduleLineIsFixed": true
+		}
+	],
+	"time": "2021-12-18T12:07:50.564771+09:00"
+}

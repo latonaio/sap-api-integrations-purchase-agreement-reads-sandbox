@@ -1,0 +1,19 @@
+{
+	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-purchase-scheduling-agreement-reads/SAP_API_Caller/caller.go#L65",
+	"function": "sap-api-integrations-purchase-scheduling-agreement-reads/SAP_API_Caller.(*SAPAPICaller).Header",
+	"level": "INFO",
+	"message": [
+		{
+			"SchedulingAgreement": "5500000000",
+			"SchedulingAgreementItem": "0",
+			"PurchasingOrganization": "1710",
+			"SupplierSubrange": "",
+			"Plant": "",
+			"PartnerFunction": "VN",
+			"PartnerCounter": "1",
+			"Supplier": "17300001",
+			"DefaultPartner": true
+		}
+	],
+	"time": "2021-12-18T12:07:49.23331+09:00"
+}
