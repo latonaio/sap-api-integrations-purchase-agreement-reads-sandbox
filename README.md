@@ -98,16 +98,44 @@ func (c *SAPAPICaller) AsyncGetPurchaseSchedulingAgreement(schedulingAgreement, 
 ## Output  
 本マイクロサービスでは、[golang-logging-library](https://github.com/latonaio/golang-logging-library) により、以下のようなデータがJSON形式で出力されます。  
 以下の sample.json の例は、SAP 受注明細 の ヘッダ が取得された結果の JSON の例です。  
-以下の項目のうち、"SchedulingAgreement" ～ "ToHeaderPartner" は、/SAP_API_Output_Formatter/type.go 内 の Type Header {} による出力結果です。"cursor" ～ "time"は、golang-logging-library による 定型フォーマットの出力結果です。  
+以下の項目のうち、"SchedulingAgreement" ～ "to_SchedgAgrmtItm" は、/SAP_API_Output_Formatter/type.go 内 の Type Header {} による出力結果です。"cursor" ～ "time"は、golang-logging-library による 定型フォーマットの出力結果です。  
 
 ```
 {
-	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-purchase-scheduling-agreement-reads/SAP_API_Caller/caller.go#L50",
+	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-purchase-scheduling-agreement-reads/SAP_API_Caller/caller.go#L58",
 	"function": "sap-api-integrations-purchase-scheduling-agreement-reads/SAP_API_Caller.(*SAPAPICaller).Header",
 	"level": "INFO",
-	"message": "[{SalesOrder:1 SalesOrderType:OR SalesOrganization:1710 DistributionChannel:10 OrganizationDivision:00 SalesGroup: SalesOffice: SalesDistrict: SoldToParty:17100001 CreationDate:/Date(1471392000000)/ LastChangeDate:/Date(1472774400000)/ ExternalDocumentID: LastChangeDateTime:/Date(1472796947125+0000)/ PurchaseOrderByCustomer:gfh CustomerPurchaseOrderDate: SalesOrderDate:/Date(1471392000000)/ TotalNetAmount:52.65 OverallDeliveryStatus:C TotalBlockStatus: OverallOrdReltdBillgStatus: OverallSDDocReferenceStatus: TransactionCurrency:USD SDDocumentReason: PricingDate:/Date(1471392000000)/ PriceDetnExchangeRate:1.00000 RequestedDeliveryDate:/Date(1471392000000)/ ShippingCondition:01 CompleteDeliveryIsDefined:false ShippingType: HeaderBillingBlockReason: DeliveryBlockReason: IncotermsClassification:EXW CustomerPriceGroup: PriceListType: CustomerPaymentTerms:0004 PaymentMethod: ReferenceSDDocument: ReferenceSDDocumentCategory: CustomerAccountAssignmentGroup:01 AccountingExchangeRate:0.00000 CustomerGroup:01 AdditionalCustomerGroup1: AdditionalCustomerGroup2: AdditionalCustomerGroup3: AdditionalCustomerGroup4: AdditionalCustomerGroup5: CustomerTaxClassification1: TotalCreditCheckStatus: BillingDocumentDate:/Date(1471392000000)/ ToHeaderPartner:https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SALES_ORDER_SRV/A_SalesOrder('1')/to_Partner}]",
-	"time": "2021-12-11T15:33:00.054455+09:00"
+	"message": [
+		{
+			"SchedulingAgreement": "5500000000",
+			"CompanyCode": "1710",
+			"PurchasingDocumentCategory": "L",
+			"PurchasingDocumentType": "LP",
+			"CreationDate": "/Date(1511222400000)/",
+			"Language": "EN",
+			"PurchasingOrganization": "1710",
+			"PurchasingGroup": "001",
+			"DocumentCurrency": "USD",
+			"IncotermsClassification": "",
+			"PaymentTerms": "0003",
+			"NetPaymentDays": "30",
+			"TargetAmount": "0.00",
+			"ExchangeRate": "1.00000",
+			"PurchasingDocumentOrderDate": "/Date(1511222400000)/",
+			"Supplier": "17300001",
+			"SupplierAddressID": "",
+			"ValidityStartDate": "/Date(1511222400000)/",
+			"ValidityEndDate": "/Date(1542758400000)/",
+			"PurchasingDocumentOrigin": "",
+			"PurchasingDocumentDeletionCode": "X",
+			"SupplierRespSalesPersonName": "",
+			"SupplierPhoneNumber": "",
+			"InvoicingParty": "",
+			"SchedulingAgreementStatus": "10",
+			"to_SchAgrmtPartner": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SCHED_AGRMT_PROCESS_SRV/A_SchAgrmtHeader('5500000000')/to_SchAgrmtPartner",
+			"to_SchedgAgrmtItm": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SCHED_AGRMT_PROCESS_SRV/A_SchAgrmtHeader('5500000000')/to_SchedgAgrmtItm"
+		}
+	],
+	"time": "2021-12-18T12:07:48.415617+09:00"
 }
 ```
-
-
