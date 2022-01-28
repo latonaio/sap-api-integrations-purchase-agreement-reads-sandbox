@@ -8,7 +8,7 @@
 			"CompanyCode": "1710",
 			"PurchasingDocumentCategory": "L",
 			"PurchasingDocumentType": "LP",
-			"CreationDate": "/Date(1511222400000)/",
+			"CreationDate": "2017-11-21T09:00:00+09:00",
 			"Language": "EN",
 			"PurchasingOrganization": "1710",
 			"PurchasingGroup": "001",
@@ -18,11 +18,11 @@
 			"NetPaymentDays": "30",
 			"TargetAmount": "0.00",
 			"ExchangeRate": "1.00000",
-			"PurchasingDocumentOrderDate": "/Date(1511222400000)/",
+			"PurchasingDocumentOrderDate": "2017-11-21T09:00:00+09:00",
 			"Supplier": "17300001",
 			"SupplierAddressID": "",
-			"ValidityStartDate": "/Date(1511222400000)/",
-			"ValidityEndDate": "/Date(1542758400000)/",
+			"ValidityStartDate": "2017-11-21T09:00:00+09:00",
+			"ValidityEndDate": "2018-11-21T09:00:00+09:00",
 			"PurchasingDocumentOrigin": "",
 			"PurchasingDocumentDeletionCode": "X",
 			"SupplierRespSalesPersonName": "",
@@ -33,5 +33,5 @@
 			"to_SchedgAgrmtItm": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SCHED_AGRMT_PROCESS_SRV/A_SchAgrmtHeader('5500000000')/to_SchedgAgrmtItm"
 		}
 	],
-	"time": "2021-12-18T12:07:48.415617+09:00"
+	"time": "2022-01-28T11:49:00+09:00"
 }

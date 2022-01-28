@@ -47,5 +47,5 @@
 			"to_SchedgAgrmtDeliveryAddress": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_SCHED_AGRMT_PROCESS_SRV/A_SchAgrmtItem(SchedulingAgreement='5500000000',SchedulingAgreementItem='10')/to_SchedgAgrmtDeliveryAddress"
 		}
 	],
-	"time": "2021-12-18T12:07:49.817903+09:00"
+	"time": "2022-01-28T11:49:02+09:00"
 }

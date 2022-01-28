@@ -8,7 +8,7 @@
 			"SchedulingAgreementItem": "10",
 			"ScheduleLine": "1",
 			"DelivDateCategory": "1",
-			"ScheduleLineDeliveryDate": "/Date(1511222400000)/",
+			"ScheduleLineDeliveryDate": "2017-11-21T09:00:00+09:00",
 			"ScheduleLineDeliveryTime": "PT00H00M00S",
 			"OrderQuantityUnit": "PC",
 			"ScheduleLineOrderQuantity": "10",
@@ -17,5 +17,5 @@
 			"ScheduleLineIsFixed": true
 		}
 	],
-	"time": "2021-12-18T12:07:50.564771+09:00"
+	"time": "2022-01-28T11:49:03+09:00"
 }
