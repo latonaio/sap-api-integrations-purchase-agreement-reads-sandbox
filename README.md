@@ -97,7 +97,7 @@ func (c *SAPAPICaller) AsyncGetPurchaseSchedulingAgreement(schedulingAgreement, 
 ```
 ## Output  
 本マイクロサービスでは、[golang-logging-library-for-sap](https://github.com/latonaio/golang-logging-library-for-sap) により、以下のようなデータがJSON形式で出力されます。  
-以下の sample.json の例は、SAP 受注明細 の ヘッダ が取得された結果の JSON の例です。  
+以下の sample.json の例は、SAP 購買分納契約 の ヘッダデータ が取得された結果の JSON の例です。  
 以下の項目のうち、"SchedulingAgreement" ～ "to_SchedgAgrmtItm" は、/SAP_API_Output_Formatter/type.go 内 の Type Header {} による出力結果です。"cursor" ～ "time"は、golang-logging-library-for-sap による 定型フォーマットの出力結果です。  
 
 ```
